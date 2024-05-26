@@ -1,0 +1,13 @@
+.editor {
+  border: 1px solid black;
+  padding: 10px;
+  height: calc(100vh - 60px);
+  width: 100%;
+}
+
+.inputLine {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
