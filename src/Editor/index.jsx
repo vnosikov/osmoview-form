@@ -1,6 +1,6 @@
 import InputLine from "./InputLine";
 import styles from './styles.module.css';
-import inputTypes from "../inputTypes";
+import inputTypes from "../inputTypes/inputTypes";
 
 const Editor = ({ inputs, onAddInput, onEditInput, onRemoveInput }) => {
   return (

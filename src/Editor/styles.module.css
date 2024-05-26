@@ -7,7 +7,23 @@
 
 .inputLine {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
   margin-bottom: 8px;
+  & button {
+    margin-right: 8px;
+  }
+}
+
+.dialog {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  & button {
+    width: 80px;
+  }
 }

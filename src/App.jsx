@@ -4,9 +4,10 @@ import { v4 as uuid } from 'uuid';
 import styles from './App.module.css'
 import Editor from './Editor';
 import GeneratedForm from './GeneratedForm';
+import initialForm from './initialForm';
 
 function App() {
-  const [inputsList, setInputsList] = useState([]);
+  const [inputsList, setInputsList] = useState(initialForm);
 
   const onAddInput = data => {
     const newData = {
